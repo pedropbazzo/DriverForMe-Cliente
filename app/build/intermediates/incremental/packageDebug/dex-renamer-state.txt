@@ -1,0 +1,7 @@
+#Thu May 25 14:53:50 ACT 2017
+base.0=/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c724603996e2cf26b722680ca95ed2954f72d9a7
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c53e1d46dea034847384228e7d8904d82f913a97/classes.dex
+base.1=/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c53e1d46dea034847384228e7d8904d82f913a97
+file.0=/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c724603996e2cf26b722680ca95ed2954f72d9a7/classes.dex

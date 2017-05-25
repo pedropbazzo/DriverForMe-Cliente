@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/vitor/.android/build-cache/686b9e6797b21e39b695d60285ebaf47348fadb7/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/vitor/.android/build-cache/686b9e6797b21e39b695d60285ebaf47348fadb7/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/home/vitor/.android/build-cache/686b9e6797b21e39b695d60285ebaf47348fadb7/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/vitor/.android/build-cache/686b9e6797b21e39b695d60285ebaf47348fadb7/output/res/drawable-v21/abc_edit_text_material.xml"
+    }
+]

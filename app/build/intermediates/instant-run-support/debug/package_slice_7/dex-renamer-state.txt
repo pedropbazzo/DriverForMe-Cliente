@@ -1,0 +1,4 @@
+#Thu May 25 15:38:25 ACT 2017
+base.0=/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7
+renamed.0=classes.dex
+file.0=/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex

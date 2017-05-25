@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/vitor/.android/build-cache/686b9e6797b21e39b695d60285ebaf47348fadb7/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/vitor/.android/build-cache/686b9e6797b21e39b695d60285ebaf47348fadb7/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/home/vitor/.android/build-cache/686b9e6797b21e39b695d60285ebaf47348fadb7/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/home/vitor/.android/build-cache/686b9e6797b21e39b695d60285ebaf47348fadb7/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/vitor/.android/build-cache/686b9e6797b21e39b695d60285ebaf47348fadb7/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/home/vitor/.android/build-cache/686b9e6797b21e39b695d60285ebaf47348fadb7/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/vitor/.android/build-cache/686b9e6797b21e39b695d60285ebaf47348fadb7/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/home/vitor/.android/build-cache/686b9e6797b21e39b695d60285ebaf47348fadb7/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/vitor/.android/build-cache/686b9e6797b21e39b695d60285ebaf47348fadb7/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/home/vitor/.android/build-cache/686b9e6797b21e39b695d60285ebaf47348fadb7/output/res/color-v23/abc_tint_edittext.xml"
+    }
+]

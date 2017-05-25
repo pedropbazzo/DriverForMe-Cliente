@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/vitor/.android/build-cache/686b9e6797b21e39b695d60285ebaf47348fadb7/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/vitor/.android/build-cache/686b9e6797b21e39b695d60285ebaf47348fadb7/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/vitor/.android/build-cache/686b9e6797b21e39b695d60285ebaf47348fadb7/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/vitor/.android/build-cache/686b9e6797b21e39b695d60285ebaf47348fadb7/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]
