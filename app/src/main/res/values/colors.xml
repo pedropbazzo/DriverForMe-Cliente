@@ -5,4 +5,6 @@
     <color name="textColorPrimary">#FFFFFF</color>
     <color name="corTexto"> #FFFFFF</color>
     <color name="cinza">#CCCCCC</color>
+    <color name="colorAccent">#007FFF</color>
+
 </resources>

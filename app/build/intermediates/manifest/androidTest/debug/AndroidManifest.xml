@@ -3,7 +3,7 @@
     package="com.example.vitor.driverforme_cliente.test" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="21"
         android:targetSdkVersion="25" />
 
     <instrumentation

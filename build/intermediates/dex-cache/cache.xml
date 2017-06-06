@@ -3,21 +3,390 @@
 
     <item
         is-multidex="true"
-        jar="/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="C:\Users\Vitor\.android\build-cache\b5fea5b4dfa99cfef95831e177761abee1158563\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="e70cd3b68de332beba4d442ce789cd50de1ecad3">
-        <dex dex="/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c724603996e2cf26b722680ca95ed2954f72d9a7/classes.dex" />
+        sha1="8c6ef5bd4072f8cda2b89d8356ea7d8acd0683aa">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c9305487d09762dc8a214f7fb32df95d93b6b7f1\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="C:\Users\Vitor\.android\build-cache\0af2198d59b0b21ed04ba57cf46809d5efdd9307\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9c0cf3d4f9d7d076f301e110b92e18ae23da12c2">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2df851c4518d090d4d2e2f030798927a743f1190\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\7d8718409cbe9f23eeb370e61e678977b6ee8499\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4df40545c9b875855f3dd9d4928e5d07f07c20ba">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_21dd68eb135c865d9115a8a53fec4adce3a57d8a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\77decc3e505d7f065c5c7f3e1ce37162d69ac334\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0e0e0681c26a1f575d3e4c542182dd59bab75fd6">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_85f058b0aa06aa1a713a8e60fded31bdf92cb686\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\782d4da8f7feb98d38f9871a6f1a04556f425a68\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a136366045678579300d161de97c2211c4c4f7a0">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_60ce1955700b31be4c6b0dfd09723e4a20129f82\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\90034c67b5d2435adb12414ceec872e6382316b0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ff9be0a1e75a21c372735930d8987a55b5e6065f">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8ee8f654c25da4ff764d7ad16d83fc7134eac8bf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\b07d165792fe4878bf67208afbde31b55353074a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="babb25794a7599069d34705038744c5760a9a88c">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_09a00f30f97f98b064ddcf1d3e16bd6d38b3a3e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\48aef5e7a17b3071821d0916d0af00d5c3a41865\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f8db47be01cbe8cfa81e9cecce5ff1371ed1ad95">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_370e900dce6a8b67e1e2f87ab04d58fe420ee59d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\4b6769c6b00bae28b209b7f89dd7262ea84d6b9e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a7cf06d693dd98658eba38ba5b44bdf2a736c15e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\403f05640e0eacf5e8a61a8da4b29bbc5e3846db\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="cdddf21e0a8205e9955661061d1735ed10e44a7b">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d4911a42b60045930529dbbf7492775149c7e8ae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\a61d6e20969d4bf9a0d271e7b760a9a42c09d6e0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="90be14317e3f26d18438e8dbf8544500d1dfe07f">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3c442c92fb36e1031aa2fc815b351b8f00150efa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\5ce5c8459bb5cc92443ee837c496154cab9300ed\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ee0ccb43f6ab276191b7f2d77c305fa9beb26db9">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5294677a8a33c0e396e74a56b89b40e486d6ad1f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\ad561d16905ce4c3d2c813731a53f610663264a8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a53ac0560ab915a02c50d2e5c7b003381e6fb5e3">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9f01e67556340165146532df656ea2ba3e00be0f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\11defd6fbcae61de9572c10dbec99d6f365a13a0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c4394d46152165cd3256fb711ac94f66a28fbae1">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9ec568179f9d7b125381bbd80c53ff10aeb69aa6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\be3e073639ee0fe442dc77b9e7f3355b8bfdcc09\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ad7706f8bb4a985656a8d2142f74021c8b0e03d8">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1f22bcb1ac0baa4a963d36270696a7d89d1e5441\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\7b7cb4048954ae3703a8983475d9cbe07f6e451b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8ebae43cd06058e99e08c8b4d305b72f2b9927c6">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e767a1a1776d5f48cfa51345b1870d7c1c82b9b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\53149c9c24515564ed077a586a7c080cf2dd7215\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="79f521967ad7f49b34748db89df02852c2b2f87b">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c6c5c702d2f2421b85a4d10dfd6db184bac0a81f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\f061187dcaffa3b60b7f1f3118ed6606c63d7a26\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c5845b38725fcd2647c8b693a2ae1129fa602401\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dd8d83697bfe384053270cb4cb30e198b69552dc">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_dfa0d3eefcfd326a311b09f5b7f32c9d7d0d6327\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\3f47f645b6f7e000b0e26b55193f9af30bb187e4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0cae6511c5705869cacf199f8abb0ea84cd10157">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_61631c8a1acb2f6548a5e6f83c92fd93754b5fe3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\3ed6171930bcfe66cfe1445b95ac3d6a4bd76d15\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="cf2c4e6607c77b0e671dc5ca252c5ea0d9c1ce0d">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8ffe8eda1900fade18fc52549dff4eb27e349fb5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\1a099c2b40da4455ffcee30ee918abdd17bc0deb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="62ff84124b89177abc0c27f3e38c9732f2d41617">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9a3b017f899ce54971c1a7e5cf42b4e7a6d0e736\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\9f3783cbd93574eef09d4227cba58759b49ece67\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da3f763afd39da1c947d9442847c837e9182a09f">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5472b2b280e34c81d09f76070235eaf98596d131\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\fbda8f63be6c0ef3fffb95292791e924d943ca64\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d45c048bb1c55cf963899190e507065aea8e5be9">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2cc659736b15b60c22cd59acd2b8d77b137d16ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\a4a9804ba11ad474e27fd8bb82e863da3ad69eb0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f0e96478ca3147bc588aadb9ae467d85b42473cc">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c618bf8b5b1424473afb2bd4c6a8800f76ea5cb6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\1351819ebba06d5ffbdd142b834a478029e75439\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ff796a3173787afe2e712f3aec6f5b99796118e">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c49476fae400e779ae1ce69a3c6b29db34889f5e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\7f1161b25451f353bfd3e935382768378a6d6f57\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dfcba20b85ef3669a8ced0a8760a6df281cbd7c7">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_02bc9ca376c7280ce50c42839746d3a6908fa0c4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\604896faae41f5042161ea79ed38ba769dd81b70\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f6aa7c76cbaa867e05dbad0afab1ef0e65c4e55f">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2a757edda87942fb9ec362fc9e6e12494cfce21a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\667d91b7ee076e77f01ac72cb8b68da8abbbd35b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="80dd8bea08bc5fe10b10a3243b8279c856ccc690">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3f46b93c8a60e5f0de46e14edd8692acc9c26991\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\e6ccc6ffa2d5186258df5e854888dee68501ef80\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a76a6983a23788b3689524d4bed763955afbd306">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_34286882b636c2fd4c94eeb49d412b08eb70e0cf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\59604821f489d487c26f1970c1852b956bedf47e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c828add497d2b7a3de7c047bf72050cd4b7521a1">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5700a1c30160f61460d7de20eaa705e85823c1aa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\90bedffc9f42b8515adc4efe9b7a6f6d9bae5e93\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6f57b76211a1d7b0c1f18873af59faad95664681">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7609a963933426945a6d2a06dd89682a7500638e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\4b6769c6b00bae28b209b7f89dd7262ea84d6b9e\output\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_a0dc4e4dd2bc61631d49d17ff1d4c9af92b4161e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c53e1d46dea034847384228e7d8904d82f913a97/classes.dex" />
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_c7c627340807061ad09ce2a5d15f61dd5f6e87ad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\c0914dd5a378d98dc1e3c90b9ac12aa3ade11ea1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="cc39b4bcc9e7062891db90d5a752fa9e4986f447">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2ca9f0a7ca903a899a43cc24dea34e74ab897e86\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\dc28a9ad71f35d582ea346fe759ac27038076a13\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="465f40f840e583f8b7421a3aacf3fbf08c28f00a">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_adff7847f2326cbbd61c18453de639dfbc50bfab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\6179a1109710f578346516fb807022a17ee6218f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47bbb3ec4b31ba71e125241c090dabe70cbb4de7">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c8638246fb67dc210196b6df24bd17d4e807b4a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\2bb0887863e3f8d50d32d09c0e22abc17267aab2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1810ae0df0a1b9b539ce97df54e96f2bf8f5ff94">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b164e1452ec5edbcf59428bae5630e39d231b6e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\b073e20731c667497682df1dcede81b4e497cc68\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="518adc52081d41724932b41bc132e4d50a352b86">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_98d0b5956971eb9c25048778a0732dddf61e3b0b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\9d892363acabdd8fae224adce1ea10b593c15450\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0dfc12e4aacf514346ea866560c99807d032bc48">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1c9c18c4e5091ef0d86ee7764cc4d869be68e093\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\a54988c4e9692f9be83edada62d2d7170996061c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ee61ace5f3e488fc610e1c67693c49186a441f32">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_61bc9d506d2661660f3cd9c5ce62ba3879d09471\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\37526b52a62bd08203ffe9552eaefc5482c84c50\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="526f4b02f1771fa7607ff1b89fe2e9bd0344fee8">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6d2839b18b022f7895849125e242db56844a2221\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\82844673e98c6f93e8a893b03eb160fccde9f301\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="159494eb362396d073d8c922b77e40c0da5fc5bc">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5a0e1354e2403ee441a7feef77a4fb9a87e85f96\classes.dex" />
     </item>
 
 </items>

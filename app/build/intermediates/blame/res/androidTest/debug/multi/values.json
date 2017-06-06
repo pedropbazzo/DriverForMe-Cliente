@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/home/vitor/.android/build-cache/4dde97270d34603d6729358bee311daae95829b9/output/res/values/values.xml",
+                    "file": "C:\\Users\\Vitor\\.android\\build-cache\\67d55b4bcbf8ec85b9026e656fd4a878c2a14e4a\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

@@ -1,18 +1,22 @@
 [
     {
-        "merged": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/home/vitor/.android/build-cache/686b9e6797b21e39b695d60285ebaf47348fadb7/output/res/layout-v21/notification_template_icon_group.xml"
+        "merged": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Vitor\\.android\\build-cache\\fcccc109d28fd2741c73ccfb6e286525eb291fcd\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
-        "merged": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/home/vitor/.android/build-cache/686b9e6797b21e39b695d60285ebaf47348fadb7/output/res/layout-v21/notification_action.xml"
+        "merged": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Vitor\\.android\\build-cache\\fcccc109d28fd2741c73ccfb6e286525eb291fcd\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
-        "merged": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/home/vitor/.android/build-cache/686b9e6797b21e39b695d60285ebaf47348fadb7/output/res/layout-v21/notification_template_custom_big.xml"
+        "merged": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\place_autocomplete_fragment.xml",
+        "source": "C:\\Users\\Vitor\\.android\\build-cache\\403f05640e0eacf5e8a61a8da4b29bbc5e3846db\\output\\res\\layout-v21\\place_autocomplete_fragment.xml"
     },
     {
-        "merged": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/home/vitor/.android/build-cache/686b9e6797b21e39b695d60285ebaf47348fadb7/output/res/layout-v21/notification_action_tombstone.xml"
+        "merged": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Vitor\\.android\\build-cache\\fcccc109d28fd2741c73ccfb6e286525eb291fcd\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Vitor\\.android\\build-cache\\fcccc109d28fd2741c73ccfb6e286525eb291fcd\\output\\res\\layout-v21\\notification_action.xml"
     }
 ]

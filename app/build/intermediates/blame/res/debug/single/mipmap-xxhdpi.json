@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
-        "source": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher_round.png",
-        "source": "/home/vitor/Documentos/Engenharia de Software/DriverForMe-Cliente/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     }
 ]

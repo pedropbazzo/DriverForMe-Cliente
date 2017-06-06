@@ -14,6 +14,7 @@ import android.widget.Toast;
 import com.example.vitor.driverforme_cliente.R;
 import com.example.vitor.driverforme_cliente.entidades.Cliente;
 import com.example.vitor.driverforme_cliente.estaticos.FirebaseEstatico;
+import com.example.vitor.driverforme_cliente.logica.Base64Custom;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -29,9 +30,9 @@ public class Cadastro extends AppCompatActivity {
     //classe que permite a manipulação do banco de dados em tempo real do firebase, é a referência do banco de dados (óbvio pelo nome_
     private DatabaseReference referenciaCliente = FirebaseEstatico.getFirebase().child("clientes");
     private Cliente cliente = new Cliente();
-
-    AlertDialog.Builder builder;
-    AlertDialog dialog;
+    private Base64Custom codificador;
+    private AlertDialog.Builder builder;
+    private AlertDialog dialog;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,7 +52,7 @@ public class Cadastro extends AppCompatActivity {
 
         btCadastro = (Button) findViewById(R.id.btCadastro);
 
-
+        codificador = new Base64Custom();
 
 
 
@@ -73,12 +74,14 @@ public class Cadastro extends AppCompatActivity {
                 cliente.setCpf(fdCpf.getText().toString());
                 cliente.setCartao(fdCartao.getText().toString());
                 cliente.setAvaliacao(10);
+                cliente.setId(codificador.codificar(fdEmail.getText().toString()));
                 Log.i("Cliente", cliente.toString());
                 builder = new AlertDialog.Builder(Cadastro.this);
                 builder.setTitle("Cadastro");
                 builder.setMessage("Cadastrando...");
                 dialog  = builder.create();
                 dialog.show();
+                dialog.setCanceledOnTouchOutside(false);
                 cadastraCliente(cliente.getEmail(), cliente.getSenha());
             }
         });
@@ -96,7 +99,7 @@ public class Cadastro extends AppCompatActivity {
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if(task.isSuccessful()){
                         Toast.makeText(Cadastro.this, "Sucesso ao cadastrar usuário", Toast.LENGTH_LONG).show();
-                        referenciaCliente.child(cliente.getCpf()).setValue(cliente);
+                        referenciaCliente.child(cliente.getId()).setValue(cliente);
                         firebaseAuth.signOut();
                         Intent intent = new Intent(Cadastro.this, TelaLogin.class);
                         startActivity(intent);
