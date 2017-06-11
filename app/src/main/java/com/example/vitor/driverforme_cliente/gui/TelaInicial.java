@@ -36,7 +36,7 @@ public class TelaInicial extends AppCompatActivity {
 
         //Configurar sliding tabs
         slidingTabLayout.setDistributeEvenly(true);
-        slidingTabLayout.setSelectedIndicatorColors(ContextCompat.getColor(this, R.color.colorAccent));
+        slidingTabLayout.setSelectedIndicatorColors(ContextCompat.getColor(this, R.color.colorPrimaryDark));
 
         //Configurar adapter
         TabAdaptador tabAdapter = new TabAdaptador( getSupportFragmentManager() );

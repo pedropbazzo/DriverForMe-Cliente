@@ -53,9 +53,6 @@ MERGED from [com.google.android.gms:play-services-cast-framework:9.6.1] C:\Users
 MERGED from [com.google.android.gms:play-services-cast:9.6.1] C:\Users\Vitor\.android\build-cache\782d4da8f7feb98d38f9871a6f1a04556f425a68\output\AndroidManifest.xml:18:5-19
 MERGED from [com.android.support:mediarouter-v7:24.0.0] C:\Users\Vitor\.android\build-cache\4b6769c6b00bae28b209b7f89dd7262ea84d6b9e\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:palette-v7:24.0.0] C:\Users\Vitor\.android\build-cache\f061187dcaffa3b60b7f1f3118ed6606c63d7a26\output\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Vitor\.android\build-cache\fcccc109d28fd2741c73ccfb6e286525eb291fcd\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Vitor\.android\build-cache\d0730f81e3ca111cb530ccf6a0ca2fea0f872909\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Vitor\.android\build-cache\6fe016d43e2d889b958891e9dcc0e32d2b82d31a\output\AndroidManifest.xml:26:5-20
 MERGED from [com.google.android.gms:play-services-clearcut:9.6.1] C:\Users\Vitor\.android\build-cache\5ce5c8459bb5cc92443ee837c496154cab9300ed\output\AndroidManifest.xml:18:5-19
 MERGED from [com.google.firebase:firebase-config:9.6.1] C:\Users\Vitor\.android\build-cache\3ed6171930bcfe66cfe1445b95ac3d6a4bd76d15\output\AndroidManifest.xml:18:5-19
 MERGED from [com.google.android.gms:play-services-awareness:9.6.1] C:\Users\Vitor\.android\build-cache\a61d6e20969d4bf9a0d271e7b760a9a42c09d6e0\output\AndroidManifest.xml:18:5-19
@@ -83,6 +80,10 @@ MERGED from [com.google.android.gms:play-services-identity:9.6.1] C:\Users\Vitor
 MERGED from [com.google.android.gms:play-services-maps:9.6.1] C:\Users\Vitor\.android\build-cache\1a099c2b40da4455ffcee30ee918abdd17bc0deb\output\AndroidManifest.xml:24:5-19
 MERGED from [com.google.android.gms:play-services-wearable:9.6.1] C:\Users\Vitor\.android\build-cache\11defd6fbcae61de9572c10dbec99d6f365a13a0\output\AndroidManifest.xml:18:5-19
 MERGED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\Vitor\.android\build-cache\30552c198931147dade1818f7763577bd3a3a58e\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.github.rtoshiro.mflibrary:mflibrary:1.0.0] C:\Users\Vitor\.android\build-cache\2525e9894f09fe4a620c0e34837880a558424112\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Vitor\.android\build-cache\fcccc109d28fd2741c73ccfb6e286525eb291fcd\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Vitor\.android\build-cache\d0730f81e3ca111cb530ccf6a0ca2fea0f872909\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Vitor\.android\build-cache\6fe016d43e2d889b958891e9dcc0e32d2b82d31a\output\AndroidManifest.xml:26:5-20
 MERGED from [com.google.firebase:firebase-core:9.6.1] C:\Users\Vitor\.android\build-cache\f448778541a9078392bd97e9962b5ee0e913d16a\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\Vitor\.android\build-cache\c67e4a8e5c5b7d779e81c9ec4cea7bd866a2beb0\output\AndroidManifest.xml:24:5-33:19
 MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] C:\Users\Vitor\.android\build-cache\fd8f5e037a27798718c7605983a4cd3ad6e2085b\output\AndroidManifest.xml:24:5-28:19
@@ -159,9 +160,6 @@ MERGED from [com.google.android.gms:play-services-cast-framework:9.6.1] C:\Users
 MERGED from [com.google.android.gms:play-services-cast:9.6.1] C:\Users\Vitor\.android\build-cache\782d4da8f7feb98d38f9871a6f1a04556f425a68\output\AndroidManifest.xml:17:5-42
 MERGED from [com.android.support:mediarouter-v7:24.0.0] C:\Users\Vitor\.android\build-cache\4b6769c6b00bae28b209b7f89dd7262ea84d6b9e\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:palette-v7:24.0.0] C:\Users\Vitor\.android\build-cache\f061187dcaffa3b60b7f1f3118ed6606c63d7a26\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Vitor\.android\build-cache\fcccc109d28fd2741c73ccfb6e286525eb291fcd\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Vitor\.android\build-cache\d0730f81e3ca111cb530ccf6a0ca2fea0f872909\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Vitor\.android\build-cache\6fe016d43e2d889b958891e9dcc0e32d2b82d31a\output\AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.gms:play-services-clearcut:9.6.1] C:\Users\Vitor\.android\build-cache\5ce5c8459bb5cc92443ee837c496154cab9300ed\output\AndroidManifest.xml:17:5-42
 MERGED from [com.google.firebase:firebase-config:9.6.1] C:\Users\Vitor\.android\build-cache\3ed6171930bcfe66cfe1445b95ac3d6a4bd76d15\output\AndroidManifest.xml:17:5-42
 MERGED from [com.google.android.gms:play-services-awareness:9.6.1] C:\Users\Vitor\.android\build-cache\a61d6e20969d4bf9a0d271e7b760a9a42c09d6e0\output\AndroidManifest.xml:17:5-42
@@ -197,6 +195,10 @@ MERGED from [com.google.android.gms:play-services-identity:9.6.1] C:\Users\Vitor
 MERGED from [com.google.android.gms:play-services-maps:9.6.1] C:\Users\Vitor\.android\build-cache\1a099c2b40da4455ffcee30ee918abdd17bc0deb\output\AndroidManifest.xml:23:5-42
 MERGED from [com.google.android.gms:play-services-wearable:9.6.1] C:\Users\Vitor\.android\build-cache\11defd6fbcae61de9572c10dbec99d6f365a13a0\output\AndroidManifest.xml:17:5-42
 MERGED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\Vitor\.android\build-cache\30552c198931147dade1818f7763577bd3a3a58e\output\AndroidManifest.xml:17:5-42
+MERGED from [com.github.rtoshiro.mflibrary:mflibrary:1.0.0] C:\Users\Vitor\.android\build-cache\2525e9894f09fe4a620c0e34837880a558424112\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Vitor\.android\build-cache\fcccc109d28fd2741c73ccfb6e286525eb291fcd\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Vitor\.android\build-cache\d0730f81e3ca111cb530ccf6a0ca2fea0f872909\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Vitor\.android\build-cache\6fe016d43e2d889b958891e9dcc0e32d2b82d31a\output\AndroidManifest.xml:20:5-43
 MERGED from [com.google.firebase:firebase-core:9.6.1] C:\Users\Vitor\.android\build-cache\f448778541a9078392bd97e9962b5ee0e913d16a\output\AndroidManifest.xml:4:5-42
 MERGED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\Vitor\.android\build-cache\c67e4a8e5c5b7d779e81c9ec4cea7bd866a2beb0\output\AndroidManifest.xml:17:5-42
 MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] C:\Users\Vitor\.android\build-cache\fd8f5e037a27798718c7605983a4cd3ad6e2085b\output\AndroidManifest.xml:17:5-42
@@ -300,20 +302,6 @@ service#com.google.android.gms.cast.framework.ReconnectionService
 ADDED from [com.google.android.gms:play-services-cast-framework:9.6.1] C:\Users\Vitor\.android\build-cache\0af2198d59b0b21ed04ba57cf46809d5efdd9307\output\AndroidManifest.xml:7:9-92
 	android:name
 		ADDED from [com.google.android.gms:play-services-cast-framework:9.6.1] C:\Users\Vitor\.android\build-cache\0af2198d59b0b21ed04ba57cf46809d5efdd9307\output\AndroidManifest.xml:7:18-90
-meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Vitor\.android\build-cache\fcccc109d28fd2741c73ccfb6e286525eb291fcd\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Vitor\.android\build-cache\d0730f81e3ca111cb530ccf6a0ca2fea0f872909\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Vitor\.android\build-cache\6fe016d43e2d889b958891e9dcc0e32d2b82d31a\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Vitor\.android\build-cache\92a6f0929fe37bdab3048625f367cb779823b283\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Vitor\.android\build-cache\e782323b9c4c14937dbd6bbd82024e1aa23e86be\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Vitor\.android\build-cache\dec9407428d4b16c334f39b33d1ebdcc78a08423\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Vitor\.android\build-cache\63d3d01e3e56af3bde1ca8640d01860f7671e8d9\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Vitor\.android\build-cache\c631c1eacb552b0de56650a0ad6df23e1a3df1d2\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Vitor\.android\build-cache\3fa9f2b99c17696587f0a4298e411d75a6b46942\output\AndroidManifest.xml:25:5-27:34
-	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Vitor\.android\build-cache\fcccc109d28fd2741c73ccfb6e286525eb291fcd\output\AndroidManifest.xml:27:9-31
-	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Vitor\.android\build-cache\fcccc109d28fd2741c73ccfb6e286525eb291fcd\output\AndroidManifest.xml:26:9-47
 service#com.google.firebase.crash.internal.service.FirebaseCrashReceiverService
 ADDED from [com.google.firebase:firebase-crash:9.6.1] C:\Users\Vitor\.android\build-cache\7d8718409cbe9f23eeb370e61e678977b6ee8499\output\AndroidManifest.xml:24:9-117
 	android:process
@@ -382,6 +370,20 @@ ADDED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\Vitor\.and
 		ADDED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\Vitor\.android\build-cache\30552c198931147dade1818f7763577bd3a3a58e\output\AndroidManifest.xml:19:86-145
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\Vitor\.android\build-cache\30552c198931147dade1818f7763577bd3a3a58e\output\AndroidManifest.xml:19:19-85
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Vitor\.android\build-cache\fcccc109d28fd2741c73ccfb6e286525eb291fcd\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Vitor\.android\build-cache\d0730f81e3ca111cb530ccf6a0ca2fea0f872909\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Vitor\.android\build-cache\6fe016d43e2d889b958891e9dcc0e32d2b82d31a\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Vitor\.android\build-cache\92a6f0929fe37bdab3048625f367cb779823b283\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Vitor\.android\build-cache\e782323b9c4c14937dbd6bbd82024e1aa23e86be\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Vitor\.android\build-cache\dec9407428d4b16c334f39b33d1ebdcc78a08423\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Vitor\.android\build-cache\63d3d01e3e56af3bde1ca8640d01860f7671e8d9\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Vitor\.android\build-cache\c631c1eacb552b0de56650a0ad6df23e1a3df1d2\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Vitor\.android\build-cache\3fa9f2b99c17696587f0a4298e411d75a6b46942\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Vitor\.android\build-cache\fcccc109d28fd2741c73ccfb6e286525eb291fcd\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Vitor\.android\build-cache\fcccc109d28fd2741c73ccfb6e286525eb291fcd\output\AndroidManifest.xml:26:9-47
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
 ADDED from [com.google.firebase:firebase-analytics:9.6.1] C:\Users\Vitor\.android\build-cache\c67e4a8e5c5b7d779e81c9ec4cea7bd866a2beb0\output\AndroidManifest.xml:25:7-26:18
 MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] C:\Users\Vitor\.android\build-cache\fd8f5e037a27798718c7605983a4cd3ad6e2085b\output\AndroidManifest.xml:25:7-26:18

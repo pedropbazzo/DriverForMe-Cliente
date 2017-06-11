@@ -44,12 +44,12 @@
         "source": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\src\\main\\res\\layout\\fragment_agendar_servico.xml"
     },
     {
-        "merged": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar.xml",
-        "source": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\src\\main\\res\\layout\\toolbar.xml"
-    },
-    {
         "merged": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_servico_imediato.xml",
         "source": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\src\\main\\res\\layout\\fragment_servico_imediato.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar.xml",
+        "source": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\src\\main\\res\\layout\\toolbar.xml"
     },
     {
         "merged": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
@@ -138,6 +138,10 @@
     {
         "merged": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tela_login.xml",
         "source": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\src\\main\\res\\layout\\activity_tela_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\res\\merged\\debug\\layout\\modelo_servico.xml",
+        "source": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\src\\main\\res\\layout\\modelo_servico.xml"
     },
     {
         "merged": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",

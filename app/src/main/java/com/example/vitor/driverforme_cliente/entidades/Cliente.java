@@ -1,11 +1,13 @@
 package com.example.vitor.driverforme_cliente.entidades;
 
+import com.google.firebase.database.Exclude;
+
 /**
  * Created by vitor on 25/05/17.
  */
 
 public class Cliente {
-    private String nome, telefone, rua, bairro, cidade, estado, pais, email, senha, cartao, cpf, id;
+    private String nome, telefone, rua, bairro, cidade, estado, pais, email, senha, cartao, cpf;
     private double avaliacao;
 
     public double getAvaliacao() {
@@ -71,7 +73,7 @@ public class Cliente {
     public void setPais(String pais) {
         this.pais = pais;
     }
-
+    @Exclude
     public String getEmail() {
         return email;
     }
@@ -79,10 +81,11 @@ public class Cliente {
     public void setEmail(String email) {
         this.email = email;
     }
-
+    @Exclude
     public String getSenha() {
         return senha;
     }
+
 
     public void setSenha(String senha) {
         this.senha = senha;
@@ -102,14 +105,6 @@ public class Cliente {
 
     public void setCpf(String cpf) {
         this.cpf = cpf;
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
     }
 
     public String toString(){

@@ -1,13 +1,32 @@
 package com.example.vitor.driverforme_cliente.entidades;
 
+import com.google.firebase.database.Exclude;
+
 /**
  * Created by vitor on 25/05/17.
  */
 
 public class Servico {
 
-    private String data, horarioPedido, origem, destino, cliente, motorista, horarioAtendimento, tipo;
+    private String data, origem, destino, cliente, motorista, tipo, horario, id;
     private double preco;
+
+
+    public String getHorario() {
+        return horario;
+    }
+    @Exclude
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setHorario(String horario) {
+        this.horario = horario;
+    }
 
     public double getPreco() {
         return preco;
@@ -31,14 +50,6 @@ public class Servico {
 
     public void setTipo(String tipo) {
         this.tipo = tipo;
-    }
-
-    public String getHorarioPedido() {
-        return horarioPedido;
-    }
-
-    public void setHorarioPedido(String horarioPedido) {
-        this.horarioPedido = horarioPedido;
     }
 
     public String getOrigem() {
@@ -73,18 +84,11 @@ public class Servico {
         this.motorista = motorista;
     }
 
-    public String getHorarioAtendimento() {
-        return horarioAtendimento;
-    }
-
-    public void setHorarioAtendimento(String horarioAtendimento) {
-        this.horarioAtendimento = horarioAtendimento;
-    }
 
     public String toString(){
-        return "----------------"+getTipo()+"---------------------"+"\nOrigem: "+getOrigem() +"\nDestino: "+getDestino()
+        return  "\nOrigem: "+getOrigem() +"\nDestino: "+getDestino()
                 +"\nCliente: "+getCliente()+"\nMotorista: "+getMotorista()+"\nPreço: "+getPreco()
-                +"\n--------------------------------------------------";
+                +"\nData: "+getData()+"\nHorário: "+getHorario();
     }
 
 }

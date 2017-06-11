@@ -169,7 +169,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="dd8d83697bfe384053270cb4cb30e198b69552dc">
+        sha1="b1a8aacc56504095136cb9c4d9dbee73cc460533">
         <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_dfa0d3eefcfd326a311b09f5b7f32c9d7d0d6327\classes.dex" />
     </item>
     <item
@@ -297,6 +297,15 @@
         revision="25.0.3"
         sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
         <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_a0dc4e4dd2bc61631d49d17ff1d4c9af92b4161e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Vitor\.android\build-cache\2525e9894f09fe4a620c0e34837880a558424112\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="29dbf7c84ce75d9b0837fe3b544de5ff41ced560">
+        <dex dex="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1826292b52db841298431a99df2f14ab38f15732\classes.dex" />
     </item>
     <item
         is-multidex="true"

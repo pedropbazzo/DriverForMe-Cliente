@@ -74,7 +74,6 @@ public class Cadastro extends AppCompatActivity {
                 cliente.setCpf(fdCpf.getText().toString());
                 cliente.setCartao(fdCartao.getText().toString());
                 cliente.setAvaliacao(10);
-                cliente.setId(codificador.codificar(fdEmail.getText().toString()));
                 Log.i("Cliente", cliente.toString());
                 builder = new AlertDialog.Builder(Cadastro.this);
                 builder.setTitle("Cadastro");
@@ -99,7 +98,7 @@ public class Cadastro extends AppCompatActivity {
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if(task.isSuccessful()){
                         Toast.makeText(Cadastro.this, "Sucesso ao cadastrar usuário", Toast.LENGTH_LONG).show();
-                        referenciaCliente.child(cliente.getId()).setValue(cliente);
+                        referenciaCliente.child(codificador.codificar(cliente.getEmail())).setValue(cliente);
                         firebaseAuth.signOut();
                         Intent intent = new Intent(Cadastro.this, TelaLogin.class);
                         startActivity(intent);

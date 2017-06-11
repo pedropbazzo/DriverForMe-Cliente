@@ -16,12 +16,12 @@
         android:required="true" />
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Optional permission for Analytics to run. -->
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Permissions required for GCM -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <meta-data
         android:name="android.support.VERSION"
-        android:value="25.3.1" /> <!-- Permissions required for GCM -->
-    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+        android:value="25.3.1" />
 
     <permission
         android:name="com.example.vitor.driverforme_cliente.permission.C2D_MESSAGE"
