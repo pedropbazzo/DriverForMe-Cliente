@@ -113,6 +113,7 @@ public class Cadastro extends AppCompatActivity {
 
         }catch(Exception e){
             dialog.cancel();
+            Log.i("Excecao", "Entrou no exception");
             Toast.makeText(Cadastro.this, "Erro: "+e.getMessage(), Toast.LENGTH_LONG).show();
         }
     }
