@@ -13,13 +13,22 @@ import android.widget.Toast;
 
 import com.example.vitor.driverforme_cliente.R;
 import com.example.vitor.driverforme_cliente.entidades.Cliente;
+import com.example.vitor.driverforme_cliente.estaticos.ClienteEstatico;
 import com.example.vitor.driverforme_cliente.estaticos.FirebaseEstatico;
 import com.example.vitor.driverforme_cliente.logica.Base64Custom;
+import com.example.vitor.driverforme_cliente.logica.ClienteLogica;
+import com.github.rtoshiro.util.format.SimpleMaskFormatter;
+import com.github.rtoshiro.util.format.text.MaskTextWatcher;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.Query;
+import com.google.firebase.database.ValueEventListener;
 
 public class Cadastro extends AppCompatActivity {
 
@@ -33,6 +42,10 @@ public class Cadastro extends AppCompatActivity {
     private Base64Custom codificador;
     private AlertDialog.Builder builder;
     private AlertDialog dialog;
+    private ClienteEstatico ce;
+    //criando query para pesquisar um cliente na hora da edição
+    private Query qrCliente;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,36 +67,158 @@ public class Cadastro extends AppCompatActivity {
 
         codificador = new Base64Custom();
 
+        ce = new ClienteEstatico();
 
 
-        //recupera a instancia estática criando no FirebaseEstatico do tipo FirebaseAuth.getInstance
-        firebaseAuth = FirebaseEstatico.getFirebaseAutenticacao();
-        //adicionando escutador no botao de cadastro
-        btCadastro.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                cliente.setNome(fdNome.getText().toString());
-                cliente.setEmail(fdEmail.getText().toString());
-                cliente.setSenha(fdSenha.getText().toString());
-                cliente.setPais(fdPais.getText().toString());
-                cliente.setEstado(fdEstado.getText().toString());
-                cliente.setCidade(fdCidade.getText().toString());
-                cliente.setBairro(fdBairro.getText().toString());
-                cliente.setRua(fdRua.getText().toString());
-                cliente.setTelefone(fdTelefone.getText().toString());
-                cliente.setCpf(fdCpf.getText().toString());
-                cliente.setCartao(fdCartao.getText().toString());
-                cliente.setAvaliacao(10);
-                Log.i("Cliente", cliente.toString());
-                builder = new AlertDialog.Builder(Cadastro.this);
-                builder.setTitle("Cadastro");
-                builder.setMessage("Cadastrando...");
-                dialog  = builder.create();
-                dialog.show();
-                dialog.setCanceledOnTouchOutside(false);
-                cadastraCliente(cliente.getEmail(), cliente.getSenha());
-            }
-        });
+        //criação das mascaras e dos escutadores
+        SimpleMaskFormatter mascaraTelefone = new SimpleMaskFormatter("+NN (NN) NNNNN-NNNN");
+        MaskTextWatcher maskTelefone = new MaskTextWatcher(fdTelefone, mascaraTelefone);
+
+        SimpleMaskFormatter mascaraCpf = new SimpleMaskFormatter("NNN.NNN.NNN-NN");
+        MaskTextWatcher maskCpf = new MaskTextWatcher(fdCpf, mascaraCpf);
+
+        SimpleMaskFormatter mascaraCartao = new SimpleMaskFormatter("NNNN NNNN NNNN NNNN");
+        MaskTextWatcher maskCartao = new MaskTextWatcher(fdCartao, mascaraCartao);
+
+        //adicionando os escutadores criados nas fields
+
+        fdTelefone.addTextChangedListener(maskTelefone);
+        fdCpf.addTextChangedListener(maskCpf);
+        fdCartao.addTextChangedListener(maskCartao);
+
+        Bundle extras = getIntent().getExtras();
+
+        
+        if(extras!=null) {
+
+            btCadastro.setText("CADASTRO");
+            //recupera a instancia estática criando no FirebaseEstatico do tipo FirebaseAuth.getInstance
+            firebaseAuth = FirebaseEstatico.getFirebaseAutenticacao();
+            //adicionando escutador no botao de cadastro
+            btCadastro.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    ClienteLogica cl = new ClienteLogica();
+                    String erro = "";
+                    erro += cl.validaNome(fdNome.getText().toString());
+                    erro += cl.validaEmail(fdEmail.getText().toString());
+                    erro += cl.validaSenha(fdSenha.getText().toString());
+                    erro += cl.validaTelefone(fdTelefone.getText().toString());
+                    erro += cl.validaCpf(fdCpf.getText().toString());
+                    erro += cl.validaCartao(fdCartao.getText().toString());
+
+                    cliente.setNome(fdNome.getText().toString());
+                    cliente.setEmail(fdEmail.getText().toString());
+                    cliente.setSenha(fdSenha.getText().toString());
+                    cliente.setPais(fdPais.getText().toString());
+                    cliente.setEstado(fdEstado.getText().toString());
+                    cliente.setCidade(fdCidade.getText().toString());
+                    cliente.setBairro(fdBairro.getText().toString());
+                    cliente.setRua(fdRua.getText().toString());
+                    cliente.setTelefone(fdTelefone.getText().toString());
+                    cliente.setCpf(fdCpf.getText().toString());
+                    cliente.setCartao(fdCartao.getText().toString());
+                    cliente.setAvaliacao(10);
+
+                    if(erro.equals("")) {
+                        builder = new AlertDialog.Builder(Cadastro.this);
+                        builder.setTitle("Cadastro");
+                        builder.setMessage("Cadastrando...");
+                        dialog = builder.create();
+                        dialog.show();
+                        dialog.setCanceledOnTouchOutside(false);
+                        cadastraCliente(cliente.getEmail(), cliente.getSenha());
+                    }
+                    else{
+                        Toast.makeText(Cadastro.this, erro, Toast.LENGTH_LONG).show();
+                    }
+                }
+            });
+
+        }
+        else{
+            qrCliente = referenciaCliente.child(codificador.codificar(ce.getCliente().getEmail()));
+            final FirebaseUser usuario = FirebaseAuth.getInstance().getCurrentUser();
+            btCadastro.setText("CONFIRMAR");
+            qrCliente.addValueEventListener(new ValueEventListener() {
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
+                    cliente = dataSnapshot.getValue(Cliente.class);
+                    Log.i("Cliente", cliente.toString());
+                    fdNome.setText(cliente.getNome());
+                    fdEmail.setText(usuario.getEmail());
+                    fdEmail.setEnabled(false);
+                    fdSenha.setText(cliente.getSenha());
+                    fdPais.setText(cliente.getPais());
+                    fdEstado.setText(cliente.getEstado());
+                    fdCidade.setText(cliente.getCidade());
+                    fdBairro.setText(cliente.getBairro());
+                    fdRua.setText(cliente.getRua());
+                    fdTelefone.setText(cliente.getTelefone());
+                    fdCpf.setText(cliente.getCpf());
+                    fdCartao.setText(cliente.getCartao());
+                }
+
+                @Override
+                public void onCancelled(DatabaseError databaseError) {
+
+                }
+            });
+
+            btCadastro.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    ClienteLogica cl = new ClienteLogica();
+                    String erro = "";
+                    erro += cl.validaNome(fdNome.getText().toString());
+                    erro += cl.validaEmail(fdEmail.getText().toString());
+                    erro += cl.validaSenha(fdSenha.getText().toString());
+                    erro += cl.validaTelefone(fdTelefone.getText().toString());
+                    erro += cl.validaCpf(fdCpf.getText().toString());
+                    erro += cl.validaCartao(fdCartao.getText().toString());
+
+                    if (erro.equals("")){
+                    builder = new AlertDialog.Builder(Cadastro.this);
+                    builder.setTitle("Edição");
+                    builder.setMessage("Editando...");
+                    dialog = builder.create();
+                    dialog.show();
+                    dialog.setCanceledOnTouchOutside(false);
+                    cliente.setNome(fdNome.getText().toString());
+                    cliente.setEmail(fdEmail.getText().toString());
+                    cliente.setSenha(fdSenha.getText().toString());
+                    cliente.setPais(fdPais.getText().toString());
+                    cliente.setEstado(fdEstado.getText().toString());
+                    cliente.setCidade(fdCidade.getText().toString());
+                    cliente.setBairro(fdBairro.getText().toString());
+                    cliente.setRua(fdRua.getText().toString());
+                    cliente.setTelefone(fdTelefone.getText().toString());
+                    cliente.setCpf(fdCpf.getText().toString());
+                    cliente.setCartao(fdCartao.getText().toString());
+                    referenciaCliente.child(codificador.codificar(ce.getCliente().getEmail())).setValue(cliente);
+
+                    usuario.updatePassword(fdSenha.getText().toString()).addOnCompleteListener(new OnCompleteListener<Void>() {
+                        @Override
+                        public void onComplete(@NonNull Task<Void> task) {
+                            if (task.isSuccessful()) {
+                                Toast.makeText(Cadastro.this, "Perfil editado com sucesso", Toast.LENGTH_LONG).show();
+                                Intent intent = new Intent(Cadastro.this, TelaInicial.class);
+                                startActivity(intent);
+                                finish();
+                            } else {
+                                dialog.cancel();
+                                Toast.makeText(Cadastro.this, "Erro ao editar usuário", Toast.LENGTH_LONG).show();
+                            }
+                        }
+                    });
+                }
+                else{
+                        Toast.makeText(Cadastro.this, erro, Toast.LENGTH_LONG).show();
+                    }
+                }
+            });
+            Toast.makeText(Cadastro.this, "Perfil em edição", Toast.LENGTH_LONG).show();
+        }
 
 
 

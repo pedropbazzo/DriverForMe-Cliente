@@ -12,10 +12,14 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import com.example.vitor.driverforme_cliente.R;
 import com.example.vitor.driverforme_cliente.adaptadores.TabAdaptador;
 import com.example.vitor.driverforme_cliente.estaticos.ClienteEstatico;
+import com.example.vitor.driverforme_cliente.estaticos.FirebaseEstatico;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class TelaInicial extends AppCompatActivity {
     private Toolbar toolbar;
@@ -61,13 +65,37 @@ public class TelaInicial extends AppCompatActivity {
 
         switch (item.getItemId()){
             case R.id.item_sair:
-
+                Intent intent = new Intent(TelaInicial.this, TelaLogin.class);
+                startActivity(intent);
+                FirebaseAuth auth = FirebaseEstatico.getFirebaseAutenticacao();
+                auth.signOut();
                 return true;
             case R.id.item_editar:
-
+                intent = new Intent(TelaInicial.this, Cadastro.class);
+                startActivity(intent);
                 return true;
             case R.id.item_excluir:
+                AlertDialog.Builder builder = new AlertDialog.Builder(TelaInicial.this);
+                builder.setTitle("Exclusao");
+                builder.setMessage("Você deseja excluir seu perfil?");
+                builder.setPositiveButton("Sim", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Toast.makeText(TelaInicial.this, "Seu perfil foi desativado", Toast.LENGTH_LONG).show();
+                        Intent intent = new Intent(TelaInicial.this, TelaLogin.class);
+                        startActivity(intent);
+                        FirebaseAuth auth = FirebaseEstatico.getFirebaseAutenticacao();
+                        auth.signOut();
+                    }
+                });
+                builder.setNegativeButton("Não", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
 
+                    }
+                });
+                AlertDialog dialog = builder.create();
+                dialog.show();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

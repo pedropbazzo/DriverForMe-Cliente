@@ -63,6 +63,7 @@ public class TelaLogin extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TelaLogin.this, Cadastro.class);
+                intent.putExtra("operacao", "cadastro");
                 startActivity(intent);
 
             }
