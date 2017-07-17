@@ -88,7 +88,7 @@ public class Cadastro extends AppCompatActivity {
 
         Bundle extras = getIntent().getExtras();
 
-        
+
         if(extras!=null) {
 
             btCadastro.setText("CADASTRO");
