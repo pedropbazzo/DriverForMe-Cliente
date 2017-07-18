@@ -1,7 +1,7 @@
-#Sun Jun 11 15:04:36 BRT 2017
-base.0=C\:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_dfa0d3eefcfd326a311b09f5b7f32c9d7d0d6327
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c7c627340807061ad09ce2a5d15f61dd5f6e87ad\\classes.dex
-base.1=C\:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c7c627340807061ad09ce2a5d15f61dd5f6e87ad
-file.0=C\:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_dfa0d3eefcfd326a311b09f5b7f32c9d7d0d6327\\classes.dex
+#Mon Jul 17 00:17:35 BRT 2017
+base.0=C\:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c7c627340807061ad09ce2a5d15f61dd5f6e87ad
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_dfa0d3eefcfd326a311b09f5b7f32c9d7d0d6327\\classes.dex
+base.1=C\:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_dfa0d3eefcfd326a311b09f5b7f32c9d7d0d6327
+file.0=C\:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c7c627340807061ad09ce2a5d15f61dd5f6e87ad\\classes.dex

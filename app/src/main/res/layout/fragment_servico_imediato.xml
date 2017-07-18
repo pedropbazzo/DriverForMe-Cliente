@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.vitor.driverforme_cliente.fragmentos.ServicoImediato">
+
+
+    <EditText
+        android:id="@+id/fdData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Data"
+        android:theme="@style/fdPadrao"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/fdHorario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Horário"
+        android:theme="@style/fdPadrao"
+        android:inputType="time" />
+
+    <Button
+        android:id="@+id/btOrigem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/botaoPadrao"
+        android:text="Origem" />
+
+    <Button
+        android:id="@+id/btDestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/botaoPadrao"
+        android:text="Destino" />
+
+    <EditText
+        android:id="@+id/fdObservacoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Observações"
+        android:inputType="textPersonName" />
+    <Button
+        android:id="@+id/btCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/botaoPadrao"
+        android:text="Calcular" />
+    <Button
+        android:id="@+id/btConfirmar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/botaoPadrao"
+        android:text="Confirmar" />
+
+    <TextView
+        android:id="@+id/fdRelatorio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>
