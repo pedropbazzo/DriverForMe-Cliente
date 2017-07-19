@@ -31,11 +31,13 @@ public class MeusServicos extends Fragment {
     private ListView listView;
     private ServicoAdaptador adapter;
     private ArrayList<Servico> servicosAgendados;
+    private ArrayList<Servico> servicosEmAtendimento;
     private ArrayList<Servico> servicosImediatos;
     private ArrayList<Servico> servicos;
     private DatabaseReference firebase;
     private ValueEventListener valueEventListenerServicosAgendados;
     private ValueEventListener valueEventListenerServicosImediatos;
+    private ValueEventListener valueEventListenerServicosEmAtendimento;
     private ClienteEstatico ce;
     public MeusServicos() {
         // Required empty public constructor
@@ -50,6 +52,7 @@ public class MeusServicos extends Fragment {
 
         servicosAgendados = new ArrayList<>();
         servicosImediatos = new ArrayList<>();
+        servicosEmAtendimento = new ArrayList<>();
         servicos = new ArrayList<>();
         listView = (ListView) view.findViewById(R.id.lv_servicos);
         ce = new ClienteEstatico();
@@ -60,7 +63,7 @@ public class MeusServicos extends Fragment {
         listView.setAdapter(adapter);
         final Query qrServicosAgendados = firebase.child("servicosAgendadosAbertos").orderByChild("cliente").equalTo(ce.getCliente().getEmail());
         final Query qrServicosImediatos = firebase.child("servicosImediatosAbertos").orderByChild("cliente").equalTo(ce.getCliente().getEmail());
-
+        final Query qrServicosEmAtendimento = firebase.child("servicosEmAtendimento").orderByChild("cliente").equalTo(ce.getCliente().getEmail());
         valueEventListenerServicosAgendados = new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -84,6 +87,31 @@ public class MeusServicos extends Fragment {
 
             }
         };
+        valueEventListenerServicosEmAtendimento = new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+
+                // Limpar mensagens
+                servicos.removeAll(servicosAgendados);
+                servicosEmAtendimento.clear();
+                // Recupera mensagens
+                for ( DataSnapshot dados: dataSnapshot.getChildren() ){
+                    Servico servico = dados.getValue( Servico.class );
+                    Log.i("Vamos ver", servico.toString());
+                    servicosEmAtendimento.add( servico );
+                }
+                servicos.addAll(servicosEmAtendimento);
+                adapter.notifyDataSetChanged();
+
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        };
+
+        qrServicosEmAtendimento.addValueEventListener(valueEventListenerServicosEmAtendimento);
 
         qrServicosAgendados.addValueEventListener( valueEventListenerServicosAgendados );
 

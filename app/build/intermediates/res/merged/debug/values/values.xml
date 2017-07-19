@@ -679,7 +679,6 @@
     <string name="google_app_id" translatable="false">1:851202319298:android:814a1586812d2738</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBaB3mL-1vjVF5H7L7XKMjSHOSC_CVWubo</string>
     <string name="google_storage_bucket" translatable="false">drivertome.appspot.com</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="item_editar_perfil">Editar Perfil</string>
     <string name="item_excluir_perfil">Excluir Perfil</string>
     <string name="item_sair">Sair</string>

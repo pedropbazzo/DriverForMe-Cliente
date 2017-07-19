@@ -4093,10 +4093,9 @@ containing a value of this type.
         public static final int google_app_id=0x7f08007d;
         public static final int google_crash_reporting_api_key=0x7f08007e;
         public static final int google_storage_bucket=0x7f08007f;
-        public static final int hello_blank_fragment=0x7f080080;
-        public static final int item_editar_perfil=0x7f080081;
-        public static final int item_excluir_perfil=0x7f080082;
-        public static final int item_sair=0x7f080083;
+        public static final int item_editar_perfil=0x7f080080;
+        public static final int item_excluir_perfil=0x7f080081;
+        public static final int item_sair=0x7f080082;
         public static final int mr_button_content_description=0x7f08004c;
         public static final int mr_chooser_searching=0x7f08004d;
         public static final int mr_chooser_title=0x7f08004e;
@@ -4115,15 +4114,15 @@ containing a value of this type.
         public static final int mr_user_route_category_name=0x7f08005b;
         public static final int place_autocomplete_clear_button=0x7f08005c;
         public static final int place_autocomplete_search_hint=0x7f08005d;
-        public static final int project_id=0x7f080084;
+        public static final int project_id=0x7f080083;
         public static final int search_menu_title=0x7f08005e;
-        public static final int senha=0x7f080085;
+        public static final int senha=0x7f080084;
         public static final int status_bar_notification_info_overflow=0x7f08005f;
-        public static final int store_picture_message=0x7f080086;
-        public static final int store_picture_title=0x7f080087;
-        public static final int tagmanager_preview_dialog_button=0x7f080088;
-        public static final int tagmanager_preview_dialog_message=0x7f080089;
-        public static final int tagmanager_preview_dialog_title=0x7f08008a;
+        public static final int store_picture_message=0x7f080085;
+        public static final int store_picture_title=0x7f080086;
+        public static final int tagmanager_preview_dialog_button=0x7f080087;
+        public static final int tagmanager_preview_dialog_message=0x7f080088;
+        public static final int tagmanager_preview_dialog_title=0x7f080089;
         public static final int wallet_buy_button_place_holder=0x7f080060;
     }
     public static final class style {
