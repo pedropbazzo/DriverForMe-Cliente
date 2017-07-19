@@ -1,7 +1,7 @@
-#Mon Jul 17 00:17:35 BRT 2017
-base.0=C\:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c7c627340807061ad09ce2a5d15f61dd5f6e87ad
+#Wed Jul 19 08:52:17 COT 2017
+base.0=C\:\\Users\\LABSI1\\AndroidStudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_9bd0915f60223f1fa06c18dc8a81eefb9c1678a1
 renamed.1=classes2.dex
 renamed.0=classes.dex
-file.1=C\:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_dfa0d3eefcfd326a311b09f5b7f32c9d7d0d6327\\classes.dex
-base.1=C\:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_dfa0d3eefcfd326a311b09f5b7f32c9d7d0d6327
-file.0=C\:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c7c627340807061ad09ce2a5d15f61dd5f6e87ad\\classes.dex
+file.1=C\:\\Users\\LABSI1\\AndroidStudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_6ce4a442a4d5292dbad5c351f77ab18f69b57dd2\\classes.dex
+base.1=C\:\\Users\\LABSI1\\AndroidStudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_6ce4a442a4d5292dbad5c351f77ab18f69b57dd2
+file.0=C\:\\Users\\LABSI1\\AndroidStudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_9bd0915f60223f1fa06c18dc8a81eefb9c1678a1\\classes.dex
