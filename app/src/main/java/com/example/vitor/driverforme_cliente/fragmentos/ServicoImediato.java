@@ -90,8 +90,6 @@ public class ServicoImediato extends Fragment {
 
         Calendar calendario = Calendar.getInstance();
         String horario = ""+calendario.get(Calendar.HOUR)+":"+calendario.get(Calendar.MINUTE);
-        Log.i("Hora", Integer.toString(Calendar.HOUR_OF_DAY));
-        Log.i("Minutos", Integer.toString(Calendar.MINUTE));
         Date data = new Date(System.currentTimeMillis());
         SimpleDateFormat formatarDate = new SimpleDateFormat("dd/MM/yyyy");
 
@@ -139,8 +137,9 @@ public class ServicoImediato extends Fragment {
         btCalcular.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(cl.verificaCampo(fdData)&&cl.verificaCampo(fdHorario)&&coordenadasDestino!=null&&coordenadasOrigem!=null) {
+                if(coordenadasDestino!=null&&coordenadasOrigem!=null) {
                     servico.setData(fdData.getText().toString());
+                    servico.setCliente(ce.getCliente().getEmail());
                     servico.setHorario(fdHorario.getText().toString());
                     servico.setPreco(calculaPreco());
                     servico.setTipo("Agendado");
@@ -154,10 +153,21 @@ public class ServicoImediato extends Fragment {
         btConfirmar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(true) {
+                if(coordenadasDestino!=null&&coordenadasOrigem!=null) {
+
+                    Date data = new Date(System.currentTimeMillis());
+                    SimpleDateFormat formatarDate = new SimpleDateFormat("dd/MM/yyyy");
+                    Calendar calendario = Calendar.getInstance();
+                    String horario = ""+calendario.get(Calendar.HOUR)+":"+calendario.get(Calendar.MINUTE);
+
+                    fdData.setText(formatarDate.format(data));
+                    fdData.setEnabled(false);
+                    fdHorario.setText(horario);
+                    fdHorario.setEnabled(false);
+
                     servico.setData(fdData.getText().toString());
                     servico.setHorario(fdHorario.getText().toString());
-                    //servico.setPreco(calculaPreco());
+                    servico.setPreco(calculaPreco());
                     servico.setCliente(ce.getCliente().getEmail());
                     servico.setTipo("Imediato");
                     //salvar o serviço no banco de dados
@@ -165,8 +175,7 @@ public class ServicoImediato extends Fragment {
                     servicosAbertos.child(servico.getId()).setValue(servico);
                     Toast.makeText(getContext(), "Pedido realizado com sucesso", Toast.LENGTH_LONG).show();
 
-                    fdData.setText("");
-                    fdHorario.setText("");
+
                     btOrigem.setText("ORIGEM");
                     btDestino.setText("DESTINO");
                     coordenadasDestino = null;
@@ -174,6 +183,8 @@ public class ServicoImediato extends Fragment {
                     fdRelatorio.setText("");
                     fdObservacoes.setText("");
                     servico = null;
+
+
                 }else{
                     Toast.makeText(getContext(), "Preencha todos os campos requeridos", Toast.LENGTH_LONG).show();
                 }

@@ -110,5 +110,9 @@ public class ClienteLogica {
             return true;
     }
 
+    public boolean validaData(String data){
 
+        
+        return true;
+    }
 }
