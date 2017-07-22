@@ -1,22 +1,22 @@
 [
     {
-        "merged": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\Vitor\\.android\\build-cache\\fcccc109d28fd2741c73ccfb6e286525eb291fcd\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+        "merged": "C:\\Users\\LABSI1\\AndroidStudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\LABSI1\\.android\\build-cache\\657c1145ae749c395af473f61e336327bd048e26\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
-        "merged": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\Vitor\\.android\\build-cache\\fcccc109d28fd2741c73ccfb6e286525eb291fcd\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+        "merged": "C:\\Users\\LABSI1\\AndroidStudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\LABSI1\\.android\\build-cache\\657c1145ae749c395af473f61e336327bd048e26\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
-        "merged": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\place_autocomplete_fragment.xml",
-        "source": "C:\\Users\\Vitor\\.android\\build-cache\\403f05640e0eacf5e8a61a8da4b29bbc5e3846db\\output\\res\\layout-v21\\place_autocomplete_fragment.xml"
+        "merged": "C:\\Users\\LABSI1\\AndroidStudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\place_autocomplete_fragment.xml",
+        "source": "C:\\Users\\LABSI1\\.android\\build-cache\\f93db89307df60b09380b125a40a4ffaec8cf405\\output\\res\\layout-v21\\place_autocomplete_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\Vitor\\.android\\build-cache\\fcccc109d28fd2741c73ccfb6e286525eb291fcd\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+        "merged": "C:\\Users\\LABSI1\\AndroidStudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\LABSI1\\.android\\build-cache\\657c1145ae749c395af473f61e336327bd048e26\\output\\res\\layout-v21\\notification_action.xml"
     },
     {
-        "merged": "C:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\Vitor\\.android\\build-cache\\fcccc109d28fd2741c73ccfb6e286525eb291fcd\\output\\res\\layout-v21\\notification_action.xml"
+        "merged": "C:\\Users\\LABSI1\\AndroidStudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\LABSI1\\.android\\build-cache\\657c1145ae749c395af473f61e336327bd048e26\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     }
 ]

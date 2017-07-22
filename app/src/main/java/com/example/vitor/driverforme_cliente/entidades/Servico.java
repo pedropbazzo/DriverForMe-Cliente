@@ -15,7 +15,7 @@ public class Servico {
     public String getHorario() {
         return horario;
     }
-    @Exclude
+
     public String getId() {
         return id;
     }
