@@ -1,4 +1,4 @@
-#Sat Jul 22 18:06:44 BRT 2017
+#Sat Jul 22 20:18:46 BRT 2017
 base.0=C\:\\Users\\Vitor\\StudioProjects\\DriverForMe-Cliente\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_dfa0d3eefcfd326a311b09f5b7f32c9d7d0d6327
 renamed.1=classes.dex
 renamed.0=classes2.dex

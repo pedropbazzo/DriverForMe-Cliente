@@ -134,7 +134,7 @@ public class AgendarServico extends Fragment {
         btCalcular.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(cl.verificaCampo(fdData)&&cl.verificaCampo(fdHorario)&&coordenadasDestino!=null&&coordenadasOrigem!=null) {
+                if(cl.verificaCampo(fdData)&&cl.verificaCampo(fdHorario)&&coordenadasDestino!=null&&coordenadasOrigem!=null&&cl.validaData(fdData.getText().toString())&&cl.validaHorario(fdHorario.getText().toString())) {
                     servico.setData(fdData.getText().toString());
                     servico.setHorario(fdHorario.getText().toString());
                     servico.setPreco(calculaPreco());
@@ -149,7 +149,7 @@ public class AgendarServico extends Fragment {
         btConfirmar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(cl.verificaCampo(fdData)&&cl.verificaCampo(fdHorario)&&coordenadasDestino!=null&&coordenadasOrigem!=null) {
+                if(cl.verificaCampo(fdData)&&cl.verificaCampo(fdHorario)&&coordenadasDestino!=null&&coordenadasOrigem!=null&&cl.validaData(fdData.getText().toString())&&cl.validaHorario(fdHorario.getText().toString())) {
                     servico.setData(fdData.getText().toString());
                     servico.setHorario(fdHorario.getText().toString());
                     servico.setPreco(calculaPreco());
@@ -170,7 +170,7 @@ public class AgendarServico extends Fragment {
                     fdObservacoes.setText("");
                     servico = null;
                 }else{
-                    Toast.makeText(getContext(), "Preencha todos os campos requeridos", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getContext(), "Preencha todos os campos requeridos corretamente", Toast.LENGTH_LONG).show();
                 }
             }
         });

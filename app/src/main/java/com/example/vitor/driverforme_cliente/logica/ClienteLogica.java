@@ -110,9 +110,32 @@ public class ClienteLogica {
             return true;
     }
 
-    public boolean validaData(String data){
+    public boolean validaHorario(String horario){
 
-        
-        return true;
+        horario = horario.replaceAll(":", "");
+        int aux = Integer.parseInt(horario);
+
+        if(aux>2359){
+            return false;
+        }
+        else{
+            return true;
+        }
+    }
+
+
+    public boolean validaData(String data){
+        data = data.replaceAll("/", "");
+
+        int aux = Integer.parseInt(data);
+
+        aux = aux-2017;
+
+        if(aux>31120000){
+            return false;
+        }
+        else{
+            return true;
+        }
     }
 }

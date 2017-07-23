@@ -186,7 +186,7 @@ public class ServicoImediato extends Fragment {
 
 
                 }else{
-                    Toast.makeText(getContext(), "Preencha todos os campos requeridos", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getContext(), "Preencha todos os campos requeridos corretamente!", Toast.LENGTH_LONG).show();
                 }
             }
         });
