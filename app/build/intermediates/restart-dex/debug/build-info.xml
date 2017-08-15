@@ -2,85 +2,40 @@
 <instant-run
     abi="x86"
     api-level="24"
-    build-mode="FULL"
+    build-mode="HOT_WARM"
     density="420dpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1500765495267"
+    timestamp="1502823619402"
     token="1214544949412713001"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="3974" />
+        duration="13000" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="217" />
     <task
         name="instant-run-transform"
-        duration="2282" />
+        duration="281" />
     <task
         name="verifier"
-        duration="694" />
+        duration="94" />
 
     <artifact
-        location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\outputs\apk\app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
         build-mode="FULL"
-        timestamp="1500765495267"
+        timestamp="1502822199623"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
@@ -89,7 +44,7 @@
             location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
@@ -98,8 +53,36 @@
             location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1502822756634"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\builds\debug\1502822756634\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1502823619402"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Vitor\StudioProjects\DriverForMe-Cliente\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

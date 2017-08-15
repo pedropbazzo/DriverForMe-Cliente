@@ -241,7 +241,7 @@ public class Cadastro extends AppCompatActivity {
                     }
                     else{
                         dialog.cancel();
-                        Toast.makeText(Cadastro.this, "Erro ao cadastrar usuário", Toast.LENGTH_LONG).show();
+                        Toast.makeText(Cadastro.this, "Erro: " + task.getException().getMessage(), Toast.LENGTH_LONG).show();
                     }
                 }
             });

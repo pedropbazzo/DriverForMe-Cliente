@@ -54,7 +54,7 @@ public class ClienteLogica {
                 return "";
             }
             else{
-                return "O email é invalido\n";
+                return "O email possui estrutura invalida\n";
             }
         }
     }
@@ -64,7 +64,7 @@ public class ClienteLogica {
     public String validaNome(String nome) {
         nome = nome.replace(" ", "");
         if(!nome.matches("[A-Z][a-z][\\wÀ-ú]*")){
-            return "Campo nome invalido, você digitou caracteres inválidos\n";
+            return "Campo nome inválido. O campo deve conter apenas letras e as iniciais devem ser maiúsculas!\n";
         }
         else
             return "";
